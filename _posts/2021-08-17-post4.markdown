@@ -12,8 +12,7 @@ intro: "A app that plays music, with a minimalist design."
 This is simple music player app built using flutter.
 The application can be divided into 2 major parts. 
 
-Part A: Finding all the music files present on the device.
-The packages used for this project are as follows:
+Part A: Finding all the music files present on the device.\
 
 Part B: Playing the music file.
 <br>
