@@ -220,7 +220,7 @@ Note:
 <ul>
 <li>This is deployed using the free version of Heroku Cloud and hence might take a while to load initially.</li>
 <br>
-<li>(future work) The images need to be in as specified on the site. To have the program work on unproper angles and image skewness, preprocessing can be done on the image before feeding it to the algorithm, this can be easily done using OpenCV</li>
+<li>(future work) The images need to be, as specified on the site. To have the program work on different angles and skewed image, preprocessing can be done on the image before feeding it to the algorithm, this can be easily done using OpenCV</li>
 </ul> 
 <br>
 
