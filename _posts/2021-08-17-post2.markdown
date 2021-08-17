@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Post 2"
+categories: "post"
+thumbImg: "assets/images/blog/blog-post-thumb-1.jpg"
+categories: jekyll update
+date:   2021-08-17 13:21:13 +0530
+intro: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies..."
+---
+
+hELLOW THERE
