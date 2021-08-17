@@ -7,7 +7,7 @@ bannerImg: "/assets/images/blog/mumbai_banner.png"
 imgCredit: "Image Credit: asdasd"
 categories: jekyll update
 date:   2021-08-17 13:21:13 +0530
-intro: "Lorem ispasdasd tes, nascetur ridiculus mus. Donec qua"
+intro: "EDA on the venues of Mumbai. What could be a good business and where?"
 ---
 
 <p>

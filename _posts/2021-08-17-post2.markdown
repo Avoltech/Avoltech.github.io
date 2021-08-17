@@ -7,7 +7,7 @@ bannerImg: "/assets/images/blog/speech_sentiment_analysis_banner.png"
 imgCredit: "Img Credit: SRI International"
 categories: jekyll update
 date:   2021-08-17 13:21:13 +0530
-intro: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies..."
+intro: "Emotion dectection in human speech using the sound waves i.e acoustic part without and linguistic processing. Also contains a research paper that compares various feature extraction techniques, individualy and combined"
 ---
 <p>
 &emsp;&emsp;As technology has developed so has our methods of interacting with them. From physical keys, to virtual Graphical User Interfaces, and finally to Voice User Interfaces, Human Computer Interaction has come a long way. Today, we can successfully use are voice to give commands to different software. This is achieved by the use of Natural Language Processing, i.e., the linguistic aspect of voice interaction. 
