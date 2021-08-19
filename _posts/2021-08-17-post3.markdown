@@ -24,7 +24,7 @@ Feature extraction step is carried out to improve model performance by taking ou
 </p>
 <br>
 <p>
-&emsp;&emsp; To read more about the methodoly and procedure, please read the report linked at the end.
+&emsp;&emsp; To read more about the methodoloy and procedure, please read the report linked at the end.
 </p>
 <br>
 <h2>Results</h2>
