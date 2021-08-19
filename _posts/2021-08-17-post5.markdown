@@ -12,22 +12,22 @@ intro: "An ERP system build for the Efficycle team Achilles and Annihilator that
 
 <p>
 ESTAA, is an application that is used by the team members of the Achilles and Annhiliator where they can send requests for obtaining the required materials and equipments that can be used to build the efficycle vehicle.
-The request send by the team members goes through the inspection of multiple "Heads". The "Heads" have different jobs to do on the form and have different rights depending upon thier posistion.
+The request send by the team members goes through the inspection of multiple "Heads". The "Heads" have different jobs to do on the form and have different rights depending upon thier position.
 <br>
 <br>
 This application was made in order to mimick the actual working as seen in industries.
-The application was developed when I was the Departmental Head of Automation Department (Programming and Electronics) for the year 2019-2020.
-
+The application was developed when I was the Departmental Head of Automation Department (Programming and Electronics) for the year 2019-2020, of team <i style="font-weight: bold;">Annihilator (SAE India Efficycle AIR 4)</i>
 </p>
+<br>
 
 <h5 class="my-3">Technologies used:</h5>
 <ul class="mb-5">
 <li class="mb-2"><h6>Flutter :</h6> for building the application</li>
-<li class="mb-2"><h6>Firebase :</h6> for remote user authentication</li>
-<li class="mb-2"><h6>Firestore :</h6> for remote database storage (NoSql) and access</li>
+<li class="mb-2"><h6>Firebase :</h6> for user authentication</li>
+<li class="mb-2"><h6>Firestore :</h6> for database storage (NoSql) and access</li>
 </ul>
 
-Following is the overall flow of the entire application.
+Following is the overall flow of the entire application:
 <div style="text-align: center;">
     <img src="{{ site.baseurl }}/assets/images/blog/erp_flow.png"> 
 </div>
