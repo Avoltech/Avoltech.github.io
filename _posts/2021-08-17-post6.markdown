@@ -101,3 +101,6 @@ Sample Link:
 <br>
 <br>
 <i>Note: This is hosted on free version of Heroku Cloud, hence may take longer to run inital (about 10-20 seconds)</i>
+<br>
+<br>
+<i>GitHub Link: <a href='https://github.com/Avoltech/CryptoPriceApi'>https://github.com/Avoltech/CryptoPriceApi</a></i>
