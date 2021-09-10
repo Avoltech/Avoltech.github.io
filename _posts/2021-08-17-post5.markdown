@@ -3,7 +3,7 @@ layout: post
 title: "ESTAA: Erp System Team Achilles and Annihilator"
 thumbImg: "assets/images/blog/erp_thumb.png"
 bannerImg: "/assets/images/blog/erp_banner.png"
-imgCredit: "Image Credit: asdasd"
+imgCredit: ""
 categories: flutter ESTA
 date:   2021-08-17 13:21:13 +0530
 intro: "An ERP system build for the Efficycle team Achilles and Annihilator that is used to obtain materials and equipments for building the vehicle"
