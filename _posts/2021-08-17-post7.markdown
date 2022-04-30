@@ -1,0 +1,41 @@
+---
+layout: post
+title: "SMS/Email Spam Not Spam Classification"
+thumbImg: "assets/images/blog/spam_thumb.jpg"
+bannerImg: "/assets/images/blog/spam_banner.png"
+creditImg: ""
+categories: DS
+date:   2022-04-30 13:21:13 +0530
+intro: "A spam classifier for sms and text. Uses Natural Language Processing (NLP) to achieve the same."
+---
+<br>
+Deployed Application Link : <a href="https://spam-classifier-avoltech.herokuapp.com/"> Spam Detector</a>
+
+<br>
+This classifier uses natural language processing and multinominal naive bayes algorithm to detect spam texts.
+<br>
+<br>
+The dataset used for this project was <i>SMS Spam Collection Dataset</i> by UCI Machine Learning.
+It can be found at the this link : <a href="https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset"> https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset</a>
+
+<br>
+<br>
+The libraries used for this project are as follows:
+<ul>
+    <b>nltk</b>(for NLP processing) 
+    <br>
+    <b>sklearn</b>(for model building)
+    <br>
+    <b>streamlit</b>(for application deployment)
+</ul>
+
+
+
+<br>
+<br>
+The code for the above project can be found on the GitHub link below.
+<a href="https://github.com/Avoltech/Text-Spam-Detection"> Text-Spam-Detection</a> 
+
+
+
+
