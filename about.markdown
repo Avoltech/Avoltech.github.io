@@ -15,9 +15,7 @@ permalink: /about/
                 <p>Hi I am Abhijeet, a recent engineering graduate of Information Technology (2021 batch). I am a tech enthusiast and have been in love with computers from my school days.
                 I have completed my Bachelor's Degree from Marathwada Mitra Mandal's College of Engineering, Pune, Maharashtra. After which I worked as a data analyst at TransUnion for 6 months.
                 </p>
-
-
-                <br><br>
+                <br>
 
                 <h5 class="my-3">Programming Languages, proficient in:</h5>
                 <ul class="mb-5">
@@ -27,7 +25,7 @@ permalink: /about/
                     <li class="mb-2">C++</li>
                     <li class="mb-2">Dart (Flutter)</li>
                 </ul>
-                <br><br>
+                <br>
 
                 <div data-iframe-width="350" data-iframe-height="270" data-share-badge-id="7333bf96-3d59-44ec-87b9-cf90669c21c1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
