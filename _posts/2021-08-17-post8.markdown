@@ -1,0 +1,107 @@
+---
+layout: post
+title: "Mutual Funds: A look behind their data"
+thumbImg: "assets/images/blog/mutual_funds_thumb.jpg"
+bannerImg: "/assets/images/blog/mutual_fund_banner.jpg"
+creditImg: ""
+categories: DS
+date:   2022-05-08 16:21:13 +0530
+intro: "Data analysis of the most consistent mutual funds (as of 2022/05/05). Get to know their favourite sectors and stocks"
+---
+<br>
+<br>
+<p>
+Ever wondered what kind of stock investment is done by the most consistent Mutual Funds out there?
+<br>
+What’s their favourite sector? What’s their favourite stock?
+<br>
+If yes, then I’ve got some answers for you!
+</p>
+<br>
+
+<p>
+Here is a data analysis report for the 27 most consistent Mutual Funds.
+<h2># Getting the data:</h2>
+To answer these questions, we need to get some data.<br>
+I got the data from <a href="https://www.etmoney.com/mutual-funds/all-funds-listing">https://www.etmoney.com/mutual-funds/all-funds-listing</a>.<br><br>
+<div style="text-align: center;">
+    <img src="{{ site.baseurl }}/assets/images/blog/etmoney_08.jpg"  /> 
+    <figcaption>ET Money</figcaption>
+</div>
+<br>
+After writing a selenium python web scrapping bot I was able to get all the details in a csv file.<br>
+(Code for the bot can be found on my github repo mentioned below)
+</p>
+<br>
+<br>
+<p>
+<h2># Cleaning and pre-processing data:</h2>
+ The cleaning part here focuses on getting rid of the unnecessary characters from the numerical fields. That is getting rid of %, , (comma),  (spaces), 'Crs'. <br><br>
+<div style="text-align: center;">
+    <img src="{{ site.baseurl }}/assets/images/blog/df_before_08.png"  /> 
+    <figcaption>Dataframe before cleaning</figcaption>
+</div>
+As this data contains list of values you need to pre-process them aswell. <br>
+Here is a great blog that explains how to work with lists efficiently in pandas. <a href="https://towardsdatascience.com/dealing-with-list-values-in-pandas-dataframes-a177e534f173">https://towardsdatascience.com/dealing-with-list-values-in-pandas-dataframes-a177e534f173</a>.<br><br>
+<div style="text-align: center;">
+    <img src="{{ site.baseurl }}/assets/images/blog/df_after_08.png"  /> 
+    <figcaption>Dataframe after cleaning</figcaption>
+</div>
+</p>
+<br>
+
+<p>
+<h2># Analysis</h2>
+If you want to see all the EDA done on the dataset checkout the IPython notebook on the repo as well.<br>
+<br>
+The major insights that I got from it are:
+<ol>
+<li>Most of these funds manage a fund size of about ₹ 700 to 5700 Crores.</li> 
+<div style="text-align: center;">
+    <img src="{{ site.baseurl }}/assets/images/blog/fund_size_boxplot_08.png"  /> 
+    <figcaption>Fundsize Box Plot</figcaption>
+</div>     
+<li><i>"Mirae Asset Emerging Bluechip Fund"</i> has the biggest funds of all, a whopping 21,000 Crores.</li>
+<div style="text-align: center;">
+    <img src="{{ site.baseurl }}/assets/images/blog/fundsize_comparison_08.png"  /> 
+    <figcaption>Fundsize Comparison</figcaption>
+</div>
+<li>There is a negative correlation between LargeCap Holding vs MidCap and SmallCap holding.
+<br>That means, a fund generally tends to be invested in LargeCap (large companies) or in MidCap and SmallCap (relatively smaller companies</li>
+<div style="text-align: center;">
+    <img src="{{ site.baseurl }}/assets/images/blog/correlation_heatmap_08.png"  /> 
+    <figcaption>Correlation Heatmap</figcaption>
+</div>
+<li>Financial Sector is their favourite sector. 24% of the investment are in financial sector followed by 12% in Technology and 8% in Healthcare.</li>
+<div style="text-align: center;">
+    <img src="{{ site.baseurl }}/assets/images/blog/sector_wise_holding_08.png"  /> 
+    <figcaption>Sectorwise Fund Distribution</figcaption>
+</div>
+<li>ICICI Bank is their favourite stock followed by HDFC Bank, Infosys, and Reliance.
+<br>(They have 2.8 times more investment in Infosys than Tata Consultancy Services)</li>
+<div style="text-align: center;">
+    <img src="{{ site.baseurl }}/assets/images/blog/favourite_stocks_08.png"  /> 
+    <figcaption>Favourite Stocks</figcaption>
+</div>
+</ol>
+</p>
+<br>
+
+
+<p>
+<h2># Dashboard</h2>
+<div style="text-align: center;">
+    <img src="{{ site.baseurl }}/assets/images/blog/dashboard_snap_08.png"  /> 
+    <figcaption>Dashboard</figcaption>
+</div>
+You can visit this link to view all the visualization for this project.
+<a href="https://public.tableau.com/app/profile/abhijeet.kalluray/viz/Mostconsistentmutualfundsanalysis/MutualFundDashboard">https://public.tableau.com/app/profile/abhijeet.kalluray/viz/Mostconsistentmutualfundsanalysis/MutualFundDashboard</a>
+<br>These graphs were generated using Tableau.
+</p>    
+
+
+<p>
+<i>
+You can find the code to this project at this GitHub repo: <a href="https://github.com/Avoltech/Mutual-Fund-Analysis">https://github.com/Avoltech/Mutual-Fund-Analysis</a>
+</i>
+</p>

@@ -13,7 +13,7 @@ permalink: /about/
                 <h2 style="text-align:center">About Me</h2>
                 <br><br>
                 <p>Hi I am Abhijeet, a recent engineering graduate of Information Technology (2021 batch). I am a tech enthusiast and have been in love with computers from my school days.
-                I have completed my Bachelor's Degree from Marathwada Mitra Mandal's College of Engineering, Pune, Maharashtra.
+                I have completed my Bachelor's Degree from Marathwada Mitra Mandal's College of Engineering, Pune, Maharashtra. After which I worked as a data analyst at TransUnion for 6 months.
                 </p>
 
 
@@ -22,10 +22,10 @@ permalink: /about/
                 <h5 class="my-3">Programming Languages, proficient in:</h5>
                 <ul class="mb-5">
                     <li class="mb-2">Python</li>
+                    <li class="mb-2">SQL</li>
                     <li class="mb-2">C</li>
                     <li class="mb-2">C++</li>
                     <li class="mb-2">Dart (Flutter)</li>
-                    <li class="mb-2">SQL</li>
                 </ul>
                 <br><br>
 
@@ -33,9 +33,9 @@ permalink: /about/
 
 
                 <p>
-                Below you can find my resume with all the further details about me and my achievments over these past years.
+                Below you can find my resume with all the further details about me.
                 </p>
-                <a href="https://drive.google.com/file/d/1agmHucPxTbt5DkQt4fgv70ZAPfc8yacg/view?usp=sharing">RESUME VIEW HERE</a>
+                <a href="https://drive.google.com/file/d/1n31T8fmLcxDgJVnH7HfD-J33El8fsrP8/view?usp=sharing">RESUME VIEW HERE</a>
 
 
     </body>
