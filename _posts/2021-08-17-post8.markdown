@@ -38,13 +38,13 @@ After writing a selenium python web scrapping bot I was able to get all the deta
 <h2># Cleaning and pre-processing data:</h2>
  The cleaning part here focuses on getting rid of the unnecessary characters from the numerical fields. That is getting rid of %, , (comma),  (spaces), 'Crs'. <br><br>
 <div style="text-align: center;">
-    <img src="{{ site.baseurl }}/assets/images/blog/df_before_08.png"  /> 
+    <img src="{{ site.baseurl }}/assets/images/blog/df_before_08.jpg"  /> 
     <figcaption>Dataframe before cleaning</figcaption>
 </div>
 As this data contains list of values you need to pre-process them aswell. <br>
 Here is a great blog that explains how to work with lists efficiently in pandas. <a href="https://towardsdatascience.com/dealing-with-list-values-in-pandas-dataframes-a177e534f173">https://towardsdatascience.com/dealing-with-list-values-in-pandas-dataframes-a177e534f173</a>.<br><br>
 <div style="text-align: center;">
-    <img src="{{ site.baseurl }}/assets/images/blog/df_after_08.png"  /> 
+    <img src="{{ site.baseurl }}/assets/images/blog/df_after_08.jpg"  /> 
     <figcaption>Dataframe after cleaning</figcaption>
 </div>
 </p>
