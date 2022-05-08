@@ -95,6 +95,7 @@ The major insights that I got from it are:
     <figcaption>Dashboard</figcaption>
 </div>
 You can visit this link to view all the visualization for this project.
+<br>(View this in desktop mode)
 <a href="https://public.tableau.com/app/profile/abhijeet.kalluray/viz/Mostconsistentmutualfundsanalysis/MutualFundDashboard">https://public.tableau.com/app/profile/abhijeet.kalluray/viz/Mostconsistentmutualfundsanalysis/MutualFundDashboard</a>
 <br>These graphs were generated using Tableau.
 </p>    
